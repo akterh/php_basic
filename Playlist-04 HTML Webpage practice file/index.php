@@ -29,7 +29,7 @@
                     Email    : <?php echo $_POST ['emailId'];?> <br>
                  <?php endif; ?>
                 </p>
-                <form action="" method="POST">
+                <form action="" method="POST" enctype="multipart/form-data" >
                     <div class="form-group " >
                         <label for="name">Name</label>
                         <input class="form-control" type="text" id="name" name="userName" placeholder="Enter name">
@@ -64,7 +64,7 @@
                     <pre>
                         <p>
                             <?php
-                            print_r($_POST) 
+                            print_r() 
 
 
                             ?>
