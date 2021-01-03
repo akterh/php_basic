@@ -2,7 +2,7 @@
 session_start(
     ['cookie_lifetime' => 60]
 );
-session_destroy();
+// session_destroy();
 if (isset($_POST['uName']) && ($_POST['pass'])) {
     if ('admin' == ($_post['uName']) && 'catsy' == ($_POST['pass'])) {
         $_SESSION['loggedin'] == true;
